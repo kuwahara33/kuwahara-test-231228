@@ -1,24 +1,5 @@
 {
   "sections": {
-    "multicolumn": {
-      "type": "multicolumn",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "21bb4fe7-aae3-4c36-9279-d63244502be4": {
       "type": "slider",
       "blocks": {
@@ -69,7 +50,6 @@
     }
   },
   "order": [
-    "multicolumn",
     "21bb4fe7-aae3-4c36-9279-d63244502be4"
   ]
 }
