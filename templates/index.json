@@ -44,7 +44,7 @@
         "text_size": "medium",
         "text_alignment": "center center",
         "show_overlay": true,
-        "auto": true,
+        "auto": false,
         "speed": 5
       }
     }
