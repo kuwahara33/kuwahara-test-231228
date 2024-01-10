@@ -39,7 +39,7 @@
 <body>
     <div class="slider">
       {% for block in section.blocks %}
-        <img src="{{ block.settings.image | image_url }}">
+        <img src="{{ block.settings.image | image_url }}"  class="slider-image">
         {% endfor %}
     </div>
 
