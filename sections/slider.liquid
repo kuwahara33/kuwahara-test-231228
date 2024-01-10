@@ -45,6 +45,7 @@
 </head>
 <body>
     <div class="slider">
+      {%- assign images = section.blocks[index].settings.slide_images | compact -%}
         <img src="{{ image | img_url}}">
         <img src="{{ '0.jpeg' | asset_url }}">
         <img src="{{ '1546_pic.jpg' | asset_url }}">
