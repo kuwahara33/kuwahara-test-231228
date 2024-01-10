@@ -9,17 +9,23 @@
   margin:0 auto;
 }
 
-/*------ スライダー画像 ------*/
-.slider img{
-	width:100%;
-  
-}
-
 /*-------- 高さ調整 ----------*/
 .slider .slick-slide{
 	height:auto!important;
   display: flex; /* スライド要素を横並びにします */
   justify-content: space-between; /* 画像間のスペースを均等にします */
+}
+
+.slide-item {
+  flex: 0 0 30%; /* 画像の幅を調整します（適切な値に調整してください）*/
+  margin-right: 10px; /* 画像間の間隔を設定します */
+}
+
+/*------ スライダー画像 ------*/
+.slider img{
+	width:100%;
+  height: auto; /* 高さを自動調整します */
+  
 }
 
 /*---------- 矢印 ----------*/
