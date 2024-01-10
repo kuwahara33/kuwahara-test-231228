@@ -38,7 +38,11 @@
 <body>
     <div class="slider">
       {% for block in section.blocks %}
-        {{ blocks.settings.image }}
+        {{
+                block.settings.image
+                | image_url
+                | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
         <img src="{{ '0.jpeg' | asset_url }}">
         <img src="{{ '1546_pic.jpg' | asset_url }}">
         <img src="{{ 'images.jpg' | asset_url }}">
