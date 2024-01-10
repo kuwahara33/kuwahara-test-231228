@@ -11,9 +11,7 @@
 
 /*------ スライダー画像 ------*/
 .slider img{
-    width: 100%;
-    height: 100%; /* 親要素（.slider）の高さに合わせて画像の高さを100%に設定します */
-    object-fit: cover; /* 画像を親要素にフィットさせます */
+	width:100%;
   
 }
 
@@ -41,7 +39,7 @@
 <body>
     <div class="slider">
       {% for block in section.blocks %}
-        <img src="{{ block.settings.image | image_url }}">
+        <img src="{{ block.settings.image | image_url }}"  class="slider-image">
         {% endfor %}
     </div>
 
