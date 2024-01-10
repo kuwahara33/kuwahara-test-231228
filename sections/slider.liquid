@@ -46,10 +46,9 @@
 <body>
     <div class="slider">
       {%- assign image = section.blocks[index].settings.image | compact -%}
+      {%- for image in images -%}
         <img src="{{ image | img_url}}">
-        <img src="{{ '0.jpeg' | asset_url }}">
-        <img src="{{ '1546_pic.jpg' | asset_url }}">
-        <img src="{{ 'images.jpg' | asset_url }}">
+        {%- endfor -%}
     </div>
 
     <script>
