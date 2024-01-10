@@ -38,7 +38,6 @@
 <body>
     <div class="slider">
       {% for block in section.blocks %}
-      {%- assign image = section.blocks[index].settings.image | compact -%}
         <img src="{{ image | img_url}}">
         <img src="{{ '0.jpeg' | asset_url }}">
         <img src="{{ '1546_pic.jpg' | asset_url }}">
