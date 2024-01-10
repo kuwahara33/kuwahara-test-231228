@@ -56,66 +56,9 @@
         "auto": false,
         "speed": 5
       }
-    },
-    "00eb5aad-bbe7-4a1f-93c9-49de1dccd6af": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21895994671415__00eb5aad-bbe7-4a1f-93c9-49de1dccd6af-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--21895994671415__00eb5aad-bbe7-4a1f-93c9-49de1dccd6af-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--21895994671415__00eb5aad-bbe7-4a1f-93c9-49de1dccd6af-slide-1",
-        "template--21895994671415__00eb5aad-bbe7-4a1f-93c9-49de1dccd6af-slide-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
-    "21bb4fe7-aae3-4c36-9279-d63244502be4",
-    "00eb5aad-bbe7-4a1f-93c9-49de1dccd6af"
+    "21bb4fe7-aae3-4c36-9279-d63244502be4"
   ]
 }
