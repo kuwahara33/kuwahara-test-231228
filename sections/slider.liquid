@@ -37,7 +37,7 @@
     {%- endstyle -%}
 <body>
     <div class="slider">
-      {% for block in section.blocks %}
+      {% for blocks in section.blocks %}
         {{ blocks.settings.image }}
         <img src="{{ '0.jpeg' | asset_url }}">
         <img src="{{ '1546_pic.jpg' | asset_url }}">
