@@ -6,31 +6,17 @@
         "bffdd003-83db-43e9-b03e-800ae448f650": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "slide_title": "",
-            "subheading": "",
-            "button_label": "",
-            "button_link": ""
+            "images": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
           }
         },
         "b4951a5d-841b-40f7-9c06-072f80ba634f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "slide_title": "",
-            "subheading": "",
-            "button_label": "",
-            "button_link": ""
           }
         },
         "f1df94d5-614e-43c2-9473-3945398945f3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
-            "slide_title": "",
-            "subheading": "",
-            "button_label": "",
-            "button_link": ""
           }
         }
       },
