@@ -36,14 +36,7 @@
 }
     {%- endstyle -%}
 <body>
-    <div class="slider">
-      {% for block in section.blocks %}
-        <img src="{{ image | img_url}}">
-        <img src="{{ '0.jpeg' | asset_url }}">
-        <img src="{{ '1546_pic.jpg' | asset_url }}">
-        <img src="{{ 'images.jpg' | asset_url }}">
-        {% endfor %}
-    </div>
+    
 
     <script>
         $(function(){
