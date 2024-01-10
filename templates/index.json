@@ -6,26 +6,47 @@
         "bffdd003-83db-43e9-b03e-800ae448f650": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+            "image": "shopify:\/\/shop_images\/0_1.jpg"
           }
         },
         "b4951a5d-841b-40f7-9c06-072f80ba634f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+            "image": "shopify:\/\/shop_images\/1546_pic.jpg"
           }
         },
         "f1df94d5-614e-43c2-9473-3945398945f3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
+            "image": "shopify:\/\/shop_images\/0.jpg"
+          }
+        },
+        "12fa102e-5011-4fb6-a57b-c2b5cc72d05a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images.jpg"
+          }
+        },
+        "0ea8eb02-95b8-4cd5-9601-1982aece7b91": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1001_ext_03_0_L.jpg"
+          }
+        },
+        "ff86aeb5-b5a0-4205-8c49-85da9ab8be0c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1030_645x_9cd46138-16b1-4b81-802b-94aee5bbaf44.webp"
           }
         }
       },
       "block_order": [
         "bffdd003-83db-43e9-b03e-800ae448f650",
         "b4951a5d-841b-40f7-9c06-072f80ba634f",
-        "f1df94d5-614e-43c2-9473-3945398945f3"
+        "f1df94d5-614e-43c2-9473-3945398945f3",
+        "12fa102e-5011-4fb6-a57b-c2b5cc72d05a",
+        "0ea8eb02-95b8-4cd5-9601-1982aece7b91",
+        "ff86aeb5-b5a0-4205-8c49-85da9ab8be0c"
       ],
       "settings": {
         "slide_height": "adapt",
