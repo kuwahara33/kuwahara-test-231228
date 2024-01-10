@@ -45,7 +45,7 @@
 </head>
 <body>
     <div class="slider">
-      {%- assign images = section.blocks[index].settings.images | compact -%}
+      {%- assign images = section.blocks.settings.image | compact -%}
         <img src="{{ image | img_url}}">
         <img src="{{ '0.jpeg' | asset_url }}">
         <img src="{{ '1546_pic.jpg' | asset_url }}">
@@ -163,7 +163,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "images",
+          "id": "image",
           "label": "画像"
         }
         
