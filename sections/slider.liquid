@@ -9,10 +9,6 @@
   margin:0 auto;
 }
 
-.slick-initialized .slick-slide{
-  display: block;
-}
-
 /*------ スライダー画像 ------*/
 .slider img{
 	width: 100%;
@@ -54,11 +50,9 @@
     <h1>{{ section.settings.s-heading }}</h1>
   </div>
     <div class="slider">
-      <div class="slick-slide">
-        {% for block in section.blocks %}
-          <img src="{{ block.settings.image | image_url }}">
+      {% for block in section.blocks %}
+        <img src="{{ block.settings.image | image_url }}">
         {% endfor %}
-      </div>
     </div>
 
     <script>
