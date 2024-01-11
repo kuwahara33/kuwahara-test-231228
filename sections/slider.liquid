@@ -46,6 +46,7 @@
 }
     {%- endstyle -%}
 <body>
+  <h1>{{ section.settings.s-heading }}</h1>
     <div class="slider">
       {% for block in section.blocks %}
         <img src="{{ block.settings.image | image_url }}">
