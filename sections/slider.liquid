@@ -7,11 +7,6 @@
 .slider{
   width:80%;
   margin:0 auto;
-  display:none;
-}
-
-.slider.slick-initialized{
-  display:block;  /*slick-initializedが付与されたら表示*/
 }
 
 /*------ スライダー画像 ------*/
@@ -55,11 +50,9 @@
     <h1>{{ section.settings.s-heading }}</h1>
   </div>
     <div class="slider">
-      <div class="slider slick-initialized slick-slider">
-        {% for block in section.blocks %}
-          <img src="{{ block.settings.image | image_url }}">
-          {% endfor %}
-      </div>
+      {% for block in section.blocks %}
+        <img src="{{ block.settings.image | image_url }}">
+        {% endfor %}
     </div>
 
     <script>
