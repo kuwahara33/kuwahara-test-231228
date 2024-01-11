@@ -1,7 +1,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    {{ 'slick.css' | asset_url | stylesheet_tag }}
+    {{ 'slick.min.js' | asset_url | script_tag }}
 
     {%- style -%}
 .slider{
