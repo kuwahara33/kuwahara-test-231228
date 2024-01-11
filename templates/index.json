@@ -38,6 +38,24 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1030_645x_9cd46138-16b1-4b81-802b-94aee5bbaf44.webp"
           }
+        },
+        "slide_UH8kRC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/odensai31912.jpg"
+          }
+        },
+        "slide_yz93gx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thum1-730x410.jpg"
+          }
+        },
+        "slide_C9MtqJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/P041652985_480.jpg"
+          }
         }
       },
       "block_order": [
@@ -46,7 +64,10 @@
         "f1df94d5-614e-43c2-9473-3945398945f3",
         "12fa102e-5011-4fb6-a57b-c2b5cc72d05a",
         "0ea8eb02-95b8-4cd5-9601-1982aece7b91",
-        "ff86aeb5-b5a0-4205-8c49-85da9ab8be0c"
+        "ff86aeb5-b5a0-4205-8c49-85da9ab8be0c",
+        "slide_UH8kRC",
+        "slide_yz93gx",
+        "slide_C9MtqJ"
       ],
       "settings": {
         "slide_height": "adapt",
